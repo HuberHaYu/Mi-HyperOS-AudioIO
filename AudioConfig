@@ -1,0 +1,24 @@
+####  HSX - 杜比全景声智能调控台 - ####
+####    Author(BiliBili)：Huber_HaYu    ####
+
+# 扬声器规格
+    
+    # 对称性（上扬声器比下扬声器小）
+    #  "false" 为 不对称
+    SYM_Spk=false
+
+# DolbyEq 额外校准(±500取值)(智能分配增益)
+BassBoost=30       # 低频
+MidRange=5       # 中频
+Treble=11           # 高频
+K_Freq=0          # 4K频区中高频（过高时高频发闷）
+
+
+# Dolby Atmos 全景声额外校准
+
+    # 额外虚拟发声点（默认值 1，封顶8192，正负都可，但数量越多并不完全代表环绕越强；0或留空为无任何环绕声场）
+    Vir_Spk_=128
+    # 虚拟环绕扬声器角度(前置 | 顶部 | 环绕)
+    front_angle=15
+    height_angle=10
+    surround_angle=10
