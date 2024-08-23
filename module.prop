@@ -1,0 +1,8 @@
+id=HSX
+name=HSX - 设备音频IO深度处理
+version=Vx.1.3.2 - Dolby.Ver
+versionCode=202500022
+author=Huber_HaYu | NikoRur、Mly墨临渊(Ksu)
+description=Xiaomi/Redmi扬声器、耳机，音箱音频增强
+minMagisk=
+updateJson=https://huberhayu.github.io/UpMod/update.json
