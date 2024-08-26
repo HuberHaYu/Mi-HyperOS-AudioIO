@@ -1,7 +1,5 @@
 # BiliBili - Huber_HaYu
 ## 运放芯片及路由处理，勿动！
-#!/bin/bash
-
 set_audio_chip() {
     local param=$1
     local value=$2
@@ -17,8 +15,7 @@ is_device() {
     local device=$1
     [ "$NAME" = "$device" ]
 }
-
-# 主逻辑
+# Main
 if audio_chip_set | grep -q 'aw882'; then
     set_audio_chip "aw882xx_copp_switch" "Disable"
     set_audio_chip "aw_dev_1_prof" "Music"
