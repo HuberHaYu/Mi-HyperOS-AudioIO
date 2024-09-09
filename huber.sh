@@ -45,8 +45,8 @@ fi
 
 if ! is_device "cas"; then
     tinymix "AMP PCM Gain" 16
-    tinymix "RCV AMP PCM Gain" 20
-    tinymix "Boost Target Voltage" 10
-    tinymix "RCV Boost Target Voltage" 5
+    tinymix "RCV AMP PCM Gain" 19
+    tinymix "Boost Target Voltage" 8
+    tinymix "RCV Boost Target Voltage" 4
 fi
 ## 运放芯片及路由处理，勿动！
