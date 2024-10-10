@@ -1,8 +1,9 @@
 id=HSX
 name=HSX - Mi AudioIO
-version=Vx.1.5(1.0.2) - Dolby.Ver
-versionCode=202500040
+version=Vx.1.5.1(1.0.3) - Dolby.Ver
+versionCode=202500050
 author=Huber_HaYu | NikoRur、Mly墨临渊(Ksu)
-description=Xiaomi/Redmi扬声器、耳机，音箱音频增强
+description=Xiaomi/Redmi SpeakerBoost
 minMagisk=
 updateJson=https://huberhayu.github.io/UpMod/update.json
+
