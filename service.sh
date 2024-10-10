@@ -21,7 +21,7 @@ wait_until_login() {
     #monitor
     while true; do
         . $MODDIR/huber.sh
-        sleep 60
+        sleep 120
     done
 }
 wait_until_login
