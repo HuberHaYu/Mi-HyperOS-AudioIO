@@ -7,9 +7,9 @@ DEVICE=$(getprop ro.product.name)
 Awx="aw882xx_copp_switch"
 
 : <<'HUBER'
-纯代码运行，保持开源，不可收费，转载详细的调音逻辑和代码需告知
+Create by HuberHaYu, free
 BiliBili - @Huber_HaYu
-GitHub - Huber_HaYu
+GitHub - HuberHaYu
 HUBER
 
 print_modname() {
@@ -40,10 +40,14 @@ gol() {
 
 mixer() {}
 
+vir() {
+    # placeholder
+}
+
 set_permissions() {
     set_perm_recursive $MODPATH 0 0 0755 0644
     set_perm_recursive  $MODPATH/system/vendor/etc/dolby  0  0  0755  0644 u:object_r:vendor_configs_file:s0
-      set_perm_recursive  $MODPATH/system/vendor/etc/audio  0  0  0755  0644 u:object_r:vendor_configs_file:s0
+    set_perm_recursive  $MODPATH/system/vendor/etc/audio  0  0  0755  0644 u:object_r:vendor_configs_file:s0
 }
 
 set_permissions
