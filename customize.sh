@@ -61,12 +61,6 @@ okay() {
     esac
 }
 
-mixer() {}
-
-vir() {
-    # placeholder
-}
-
 set_permissions() {
     set_perm_recursive $MODPATH 0 0 0755 0644
     set_perm_recursive  $MODPATH/system/vendor/etc/dolby  0  0  0755  0644 u:object_r:vendor_configs_file:s0
@@ -75,7 +69,6 @@ set_permissions() {
 
 set_permissions
 print_modname
-mixer
 check
 gol
 okay
